@@ -1,0 +1,26 @@
+/*=====================
+	Calc grid CSS
+=======================*/
+
+img {
+	float: left;
+	width: calc(25% - 20px);  /* creates a 4 column grid with 20px gutter */
+	margin: 10px;
+}
+@media (max-width: 990px) {
+	img {
+		width: calc(100% * 1/3 - 20px);
+	}
+}
+
+@media (max-width: 600px) {
+	img {
+		width: calc(100% * 1/2 - 20px);
+	}
+}
+
+@media (max-width: 400px) {
+	img {
+		width: calc(100% -20px);
+	}
+}
