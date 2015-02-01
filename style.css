@@ -1,33 +1,35 @@
-h1, h2, h3, h4, h5, h6 {
+#size {
+	position: fixed;
+	top:0;
+	left: calc(100% * 1/2 - 180px);
+	background: rgba(0, 0, 0, .3);
+}
+
+body {
 	text-align: center;
 }
 
-.col, .col2, .col3, .col4, .col6, .col12, .col5, .col7, .col8, .col9, .col10, .col11 {
+.box, .box2, .box3, .box4, .box6, .box12, .box5, .box7, .box8, .box9, .box10, .box11 {
 	height: 100px;
-	text-align: center;
 	font-size: 20px;
 }
 
-.col, .col11 {
+.red {
 	background-color: #ff0000;
 }
 
-.col2, .col10 {
+.orange {
 	background-color: #ff7400;
 }
 
-.col3, .col5 {
+.green {
 	background-color: #00cc00;
 }
 
-.col4, .col7 {
+.blue {
 	background-color: #009999;
 }
 
-.col6, .col8 {
-	background-color: #ff0000;
-}
-
-.col12, .col9 {
-	background-color: #ff7400;
+.white {
+	background-color: white;
 }
