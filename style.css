@@ -1,7 +1,7 @@
 #size {
 	position: fixed;
 	top:0;
-	left: calc(100% * 1/2 - 180px);
+	left: calc(100% * 1/2 - 150px);
 	background: rgba(0, 0, 0, .3);
 }
 

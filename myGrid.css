@@ -13,13 +13,19 @@
 	background-size: auto;
 }*/
 
-.box, .box2, .box3, .box4, .box6, .box12, .box5, .box7, .box8, .box9, .box10, .box11 {
+.box, .box2, .box3, .box4, .box6, .box12, .box5, .box7, .box8, .box9, .box10, .box11,
+.nested12 {
 	float: left;
-	margin: 5px;
+	margin: 5px;  /* change here to increase margin on each box, but also change `box` class */
+}
+
+.nested12 {
+	width: calc(100% - 10px);
+	height: 90%;
 }
 
 .box {
-	width: calc(100% * 1/12 - 10px);
+	width: calc(100% * 1/12 - 10px);  /* if you increase margin, change offset here to double the new margin */
 }
 
 .box2 {
