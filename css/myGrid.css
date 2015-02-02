@@ -28,13 +28,9 @@ img {
 	width: auto;
 }
 
-/*.offset10 {
-	padding-right: 0;
-}
-
 .offset75 {
-	padding-right: 5px;
-}*/
+	padding-right: 75px;
+}
 
 .box {
 	width: calc(100% * 1/12 - 10px);  /* if you increase margin, change offset here to double the new margin */
@@ -129,7 +125,6 @@ img {
 
 .noMarginStretch2 {
 	height: 200px !important;
-
 }
 
 /*@media (max-width: 1300px) {

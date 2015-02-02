@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/myGrid.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class='blue'>
+<section>
+	<div class='box12'></div>
+	<div class='box'></div>
+	<div id='name' style='font-family: Montez; font-size: 6em; color: white' class='box5'>Cynthia O'Donnell</div>
+	<div class='box6'></div>
+		<div class='box12 stretch2'></div>
+	<div class='box5 stretch3'></div>
+	<div class='box3 stretch3'><img src='img/womanAtLaptop.png'></div>
+	<div class='box4 stretch3'></div>
+</section>
+<div id='size' style='font-size:30px'></div>
+<script type='text/javascript'>
+  var container = document.getElementById("size");
+
+  function tick() {
+  	var width = window.innerWidth;
+  	var height = window.innerHeight;
+  	container.textContent = width + "px wide " + height + "px tall";
+  	window.requestAnimationFrame(tick);
+  }
+  window.requestAnimationFrame(tick);
+</script>
+</body>
+</html>

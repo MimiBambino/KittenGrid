@@ -3,8 +3,9 @@
 <head>
 	<meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-	<link rel="stylesheet" href="myGrid.css" />
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/myGrid.css" />
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 	<h1>Grid Based on Calc()</h1>
@@ -141,14 +142,27 @@
 	<h4></h4>
 <section>
 	<div class='box12 green'>box12 green</div>
-	<div class='box2 red stretch7'>box2 red stretch7</div><div class='box4 blue stretch3'>box4 blue stretch3</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red stretch7 right'>box2 red stretch7 right</div>
-	<div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div>
-	<div class='box2 red'>box2 red</div><div class='box4 blue'>box4 blue</div><div class='box2 red'>box2 red</div>
+	<div class='box2 red stretch7'>box2 red stretch7</div>
+	<div class='box4 blue stretch3'>box4 blue stretch3</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red stretch7 right'>box2 red stretch7 right</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box4 blue'>box4 blue</div>
+	<div class='box2 red'>box2 red</div>
 	<div class='box8 orange'>box8 orange</div>
-	<div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div>
-	<div class='box6 green'>box6 green</div><div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box2 red'>box2 red</div>
+	<div class='box6 green'>box6 green</div>
+	<div class='box2 red'>box2 red</div>
 </section>
-<h1>And Now For Something Completely Different</h1>
+<h1>Strange Boxes</h1>
 <section>
 	<div class='box12 green'>box12 green</div>
 	<div class='box2 red stretch7'>box2 red stretch7</div>
@@ -160,33 +174,27 @@
 	<div class='box2 red'>box2 red</div>
 	<div class='box2 red'>box2 red</div>
 	<div class='box2 red'>box2 red</div>
-	<div class='box2 white stretch3'>
-		<div class='box12 green nested2'>nested12 green</div>
-		<div class='box12 green nested2'>nested12 green</div>
-		<div class='box12 green nested2'>nested12 green</div>
-	</div>
+	<div class='box8 green'>box8 green</div>
+	<div class='box4 red stretch3'>box4 red stretch3</div>
 	<div class='box4 blue stretch3'>box4 blue stretch3</div>
-	<div class='box2 red'>box2 red</div>
 	<div class='box8 orange'>box8 orange</div>
 	<div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div><div class='box2 red'>box2 red</div>
 	<div class='box6 green'>box6 green</div><div class='box2 red'>box2 red</div>
 </section>
+<h1>Now, How Might I Use This?</h1>
+<section>
+	<div class='box12'>box12</div>
+	<div class='box'>box</div>
+	<div id='name' style='font-family: Montez; font-size: 85px; color: blue' class='box5'>Cynthia O'Donnell</div>
+	<div class='box6'>box6</div>
+		<div class='box12 stretch2'>box12 stretch2</div>
+	<div class='box5 stretch3'>box5 stretch3</div>
+	<div class='box3 stretch3'><img src='img/womanAtLaptop.png'></div>
+	<div class='box4 stretch3'>box4 stretch3</div>
+</section>
 
 
-<!-- <section>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-<div class='box'>box</div>
-</section> -->
+</section>
 <div id='size' style='font-size:30px'></div>
 <script type='text/javascript'>
   var container = document.getElementById("size");

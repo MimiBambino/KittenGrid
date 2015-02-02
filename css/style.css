@@ -1,0 +1,35 @@
+#size {
+	position: fixed;
+	top:0;
+	left: calc(100% * 1/2 - 150px);
+	background: rgba(0, 0, 0, .3);
+}
+
+body {
+	text-align: center;
+}
+
+.box, .box2, .box3, .box4, .box6, .box12, .box5, .box7, .box8, .box9, .box10, .box11 {
+	height: 100px;
+	font-size: 20px;
+}
+
+.red {
+	background-color: #ff0000;
+}
+
+.orange {
+	background-color: #ff7400;
+}
+
+.green {
+	background-color: #00cc00;
+}
+
+.blue {
+	background-color: #009999;
+}
+
+.white {
+	background-color: white;
+}
