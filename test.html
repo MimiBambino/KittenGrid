@@ -1,0 +1,55 @@
+<!-- TODO: create linear gradient in GIMP for landing page,
+           improve layout of landing page,
+           study transitions and animation for inspiration on how to reveal the -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<style>
+		.blue {
+			/*background-image: -webkit-linear-gradient(320deg, #008CB0 0%, #1F3244 100%);
+			background-image: linear-gradient(130deg, #008CB0 0%, #1F3244 100%);*/
+			background-image: url('img/blueGrad.png');
+			background-repeat: no-repeat;
+			height: 100%;
+		}
+		#name {
+			width: 100%;
+			position: relative;
+			top: 5%;
+			left: 20%;
+		}
+		#ladyDiv {
+			position: relative;
+			height: 500px;
+			top: calc(100% * 2/3);
+			left: 50%;
+		}
+		#lady {
+			width: auto;
+			height: 50%;
+		}
+	</style>
+</head>
+<body class='blue'>
+	<section>
+		<div id='name' style='font-family: Montez; font-size: 6em; color: black' class='name'>Cynthia O&#39;Donnell</div>
+		<div id='ladyDiv'><img id='lady' src='img/womanAtLaptop.png'></div>
+	</section>
+	<div id='size' style='font-size:30px'></div>
+	<script type='text/javascript'>
+		var container = document.getElementById("size");
+
+		function tick() {
+			var width = window.innerWidth;
+		  	var height = window.innerHeight;
+		  	container.textContent = width + "px wide " + height + "px tall";
+		  	window.requestAnimationFrame(tick);
+		}
+		window.requestAnimationFrame(tick);
+	</script>
+</body>
+</html>
